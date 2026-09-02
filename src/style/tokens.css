@@ -1,0 +1,28 @@
+:root {
+  /* Palette dari Figma (color palette export) */
+  --color-black: #000000;
+  --color-blue: #006bb8;
+  --color-green: #00b33e;
+  --color-green-alt: #81b900;
+  --color-navy: #020bb2;
+  --color-pink: #b80049;
+  --color-white: #ffffff;
+
+  --color-text-default: #1e1e1e;
+  --color-text-secondary: #757575;
+  --color-border-neutral-secondary: #767676;
+  --color-border-default: #d9d9d9;
+  --color-bg-neutral-tint: #e3e3e3;
+
+  --color-bg: #f4f6fb;
+  --color-header-gradient-start: #fff9c4;
+  --color-header-gradient-end: #fff176;
+
+  --font-heading: "Poppins", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "Courier New", monospace;
+
+  --size-space-200: 8px;
+  --size-space-400: 16px;
+  --size-space-1600: 64px;
+}

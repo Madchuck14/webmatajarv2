@@ -1,0 +1,5338 @@
+[
+ {
+  "index": 1,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 46.574,
+     "yPct": 75.311,
+     "wPct": 6.748,
+     "hPct": 5.385
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "BAB 3",
+        "bold": true,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 2,
+  "shapes": [
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": -2.066,
+     "yPct": 47.883,
+     "wPct": 47.017,
+     "hPct": 57.921
+    },
+    "src": "image10.png"
+   }
+  ]
+ },
+ {
+  "index": 3,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 19.162,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Pengertian",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 30.254,
+     "wPct": 95.983,
+     "hPct": 25.581
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Fungsi adalah bagian dari program yang ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "dirancang",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " untuk melakukan ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "tugas tertentu ",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "dan dapat ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "dipanggil berulang kali",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " dari berbagai \"bagian\" program. ",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     },
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Secara umum, fungsi terdiri atas tiga bagian. ",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     },
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Nama fungsi ",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "→ Digunakan untuk memanggil fungsi. ",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     },
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Parameter",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " (opsional) → Data yang dikirim ke fungsi. ",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     },
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Nilai kembali ",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "(",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "return",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "value",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": ") → Hasil yang dikembalikan oleh fungsi. ",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 42.111,
+     "yPct": 14.256,
+     "wPct": 16.482,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "FUNGSI",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 55.206,
+     "yPct": 11.304,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.457,
+     "yPct": 58.145,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Contoh Program",
+        "bold": true,
+        "size": 16.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "table",
+    "geom": {
+     "xPct": 28.793,
+     "yPct": 65.161,
+     "wPct": 46.822,
+     "hPct": 28.074
+    },
+    "rows": [
+     [
+      "",
+      "Fungsi.py"
+     ],
+     [
+      "12345678",
+      "#Inisialisasi fungsidef hitung_luas (panjang, lebar):  luas = panjang * lebar  return luas#Memberikan nilai pada panjang dan lebarLuasBidang = hitung_luas(5,3)#Mencetak hasilprint(LuasBidang)"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "index": 4,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 19.162,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Pengertian",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 30.254,
+     "wPct": 95.983,
+     "hPct": 17.503
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Prosedur adalah bagian dari program yang ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "menjalankan proses ",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "tertentu ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "tanpa mengembalikan nilai",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": ".",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     },
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Prosedur biasanya digunakan untuk menjalankan perintah seperti mencetak ke layar, mengubah tampilan, atau menjalankan logika.",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     },
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Dalam beberapa bahasa pemrograman, prosedur disebut ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "subroutine",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": ". ",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 42.111,
+     "yPct": 14.256,
+     "wPct": 16.482,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "PROSEDUR",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 55.206,
+     "yPct": 11.304,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.124,
+     "yPct": 51.124,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Contoh Program",
+        "bold": true,
+        "size": 16.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "table",
+    "geom": {
+     "xPct": 27.474,
+     "yPct": 62.34,
+     "wPct": 46.822,
+     "hPct": 17.407
+    },
+    "rows": [
+     [
+      "",
+      "Prosedur.py"
+     ],
+     [
+      "1234",
+      "#Inisialisasi prosedurdef tampilkan_hasil (bilangan, kuadrat):  print(\"\\nBilangan masukan:\", bilangan)  print(\"Nilai kuadrat:\", kuadrat) \t"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "index": 5,
+  "shapes": [
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 81.957,
+     "yPct": 73.733,
+     "wPct": 16.18,
+     "hPct": 27.89
+    },
+    "src": "image11.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 38.621,
+     "yPct": 22.766,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "IMPLEMENTASI",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 16.021,
+     "yPct": 44.567,
+     "wPct": 67.959,
+     "hPct": 10.866
+    },
+    "fill": "#FFF2F2",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Implementasi",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " pada program",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     },
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Klik",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Di ",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "sini",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 6,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 19.162,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Pengertian",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 30.254,
+     "wPct": 95.983,
+     "hPct": 9.424
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Array adalah ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "variabel",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " yang dapat menyimpan banyak ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "nilai",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " dengan ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "tipe data yang sama",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": ".",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     },
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Terdapat dua jenis array yaitu, ",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 42.111,
+     "yPct": 14.256,
+     "wPct": 16.482,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Array",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 55.206,
+     "yPct": 11.304,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "text",
+    "shape": "round2SameRect",
+    "geom": {
+     "xPct": 21.649,
+     "yPct": 41.835,
+     "wPct": 18.901,
+     "hPct": 13.509
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "1 ",
+        "bold": false,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Dimensi",
+        "bold": false,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "round2SameRect",
+    "geom": {
+     "xPct": 20.733,
+     "yPct": 43.245,
+     "wPct": 18.901,
+     "hPct": 13.509
+    },
+    "fill": "#FFF2F2",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "1 ",
+        "bold": false,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Dimensi",
+        "bold": false,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 127.169,
+     "yPct": -12.427,
+     "wPct": 16.18,
+     "hPct": 27.89
+    },
+    "src": "image11.png"
+   },
+   {
+    "kind": "text",
+    "shape": "round2SameRect",
+    "geom": {
+     "xPct": 56.402,
+     "yPct": 41.494,
+     "wPct": 18.901,
+     "hPct": 13.509
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "1 ",
+        "bold": false,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Dimensi",
+        "bold": false,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "round2SameRect",
+    "geom": {
+     "xPct": 55.486,
+     "yPct": 42.905,
+     "wPct": 18.901,
+     "hPct": 13.509
+    },
+    "fill": "#FFF2F2",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "2 ",
+        "bold": false,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Dimensi",
+        "bold": false,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 7,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 19.162,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Pengertian",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 30.254,
+     "wPct": 95.983,
+     "hPct": 13.464
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Array satu dimensi digunakan untuk menyimpan data dalam satu baris. ",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     },
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Array dimulai dari indeks ke-0",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 38.682,
+     "yPct": 13.86,
+     "wPct": 22.635,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "ARRAY 1 DIMENSI",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 57.741,
+     "yPct": 10.466,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.457,
+     "yPct": 43.789,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Contoh Kode",
+        "bold": true,
+        "size": 16.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 81.957,
+     "yPct": 73.733,
+     "wPct": 16.18,
+     "hPct": 27.89
+    },
+    "src": "image11.png"
+   },
+   {
+    "kind": "table",
+    "geom": {
+     "xPct": 27.145,
+     "yPct": 55.196,
+     "wPct": 46.822,
+     "hPct": 8.964
+    },
+    "rows": [
+     [
+      "",
+      "Array.py"
+     ],
+     [
+      "1",
+      "nilai_ujian = [85, 90, 78, 92, 88]"
+     ]
+    ]
+   },
+   {
+    "kind": "connector",
+    "geom": {
+     "xPct": 20.044,
+     "yPct": 63.152,
+     "wPct": 14.541,
+     "hPct": 11.804
+    },
+    "color": "#FF0000"
+   },
+   {
+    "kind": "text",
+    "shape": "snip1Rect",
+    "geom": {
+     "xPct": 8.691,
+     "yPct": 71.358,
+     "wPct": 11.353,
+     "hPct": 7.197
+    },
+    "fill": "#E97777",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Deklarasi",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "Variabel",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "snip2SameRect",
+    "geom": {
+     "xPct": 30.085,
+     "yPct": 71.591,
+     "wPct": 7.411,
+     "hPct": 6.406
+    },
+    "fill": "#E97777",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Indeks",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       },
+       {
+        "text": " ke-0",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "connector",
+    "geom": {
+     "xPct": 33.79,
+     "yPct": 62.586,
+     "wPct": 9.498,
+     "hPct": 9.005
+    },
+    "color": "#FF0000"
+   },
+   {
+    "kind": "text",
+    "shape": "snip2SameRect",
+    "geom": {
+     "xPct": 38.269,
+     "yPct": 71.464,
+     "wPct": 7.411,
+     "hPct": 6.406
+    },
+    "fill": "#E97777",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Indeks",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       },
+       {
+        "text": " ke-1",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "connector",
+    "geom": {
+     "xPct": 41.974,
+     "yPct": 62.586,
+     "wPct": 4.326,
+     "hPct": 8.879
+    },
+    "color": "#FF0000"
+   },
+   {
+    "kind": "text",
+    "shape": "snip2SameRect",
+    "geom": {
+     "xPct": 46.453,
+     "yPct": 71.457,
+     "wPct": 7.411,
+     "hPct": 6.406
+    },
+    "fill": "#E97777",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Indeks",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       },
+       {
+        "text": " ke-2",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "connector",
+    "geom": {
+     "xPct": 49.479,
+     "yPct": 62.586,
+     "wPct": 0.679,
+     "hPct": 8.871
+    },
+    "color": "#FF0000"
+   },
+   {
+    "kind": "text",
+    "shape": "snip2SameRect",
+    "geom": {
+     "xPct": 54.637,
+     "yPct": 71.349,
+     "wPct": 7.411,
+     "hPct": 6.406
+    },
+    "fill": "#E97777",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Indeks",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       },
+       {
+        "text": " ke-3",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "connector",
+    "geom": {
+     "xPct": 52.666,
+     "yPct": 62.586,
+     "wPct": 5.677,
+     "hPct": 8.763
+    },
+    "color": "#FF0000"
+   },
+   {
+    "kind": "text",
+    "shape": "snip2SameRect",
+    "geom": {
+     "xPct": 62.821,
+     "yPct": 71.323,
+     "wPct": 7.411,
+     "hPct": 6.406
+    },
+    "fill": "#E97777",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Indeks",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       },
+       {
+        "text": " ke-4",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "connector",
+    "geom": {
+     "xPct": 55.452,
+     "yPct": 62.586,
+     "wPct": 11.075,
+     "hPct": 8.738
+    },
+    "color": "#FF0000"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 3.679,
+     "yPct": 79.377,
+     "wPct": 79.961,
+     "hPct": 13.464
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Terdapat",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " beberapa ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "kode",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " untuk ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "memanipulasi",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "isi",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "dari",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "array",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " dalam Python. ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "Perintah",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " tersebut ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "bisa",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " langsung  ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "merubah",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "  sesuai ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "indeks",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " atau menggunakan ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "perintah",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " seperti append, insert, remove, dan lain ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "sebagainya",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": ".",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 8,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 3.973,
+     "yPct": 19.162,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Pengertian",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 30.325,
+     "wPct": 95.983,
+     "hPct": 9.424
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Array dua dimensi adalah struktur data yang terdiri atas baris dan kolom",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     },
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Setiap elemen dalam array ini dapat diakses menggunakan dua indeks, yaitu indeks baris dan indeks kolom",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 38.682,
+     "yPct": 13.86,
+     "wPct": 22.635,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "ARRAY 2 DIMENSI",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 57.741,
+     "yPct": 10.466,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.465,
+     "yPct": 41.401,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Contoh Kode",
+        "bold": true,
+        "size": 16.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 81.957,
+     "yPct": 73.733,
+     "wPct": 16.18,
+     "hPct": 27.89
+    },
+    "src": "image11.png"
+   },
+   {
+    "kind": "table",
+    "geom": {
+     "xPct": 6.992,
+     "yPct": 63.038,
+     "wPct": 37.633,
+     "hPct": 19.149
+    },
+    "rows": [
+     [
+      "",
+      "Array2d.py"
+     ],
+     [
+      "12345",
+      "nilai_siswa = [[85, 90, 88], [78, 92, 80], [91, 87, 84]  ]"
+     ]
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.114,
+     "yPct": 52.177,
+     "wPct": 89.677,
+     "hPct": 9.424
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Sebagai",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " contoh, ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "jika",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "kita",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ingin menyimpan ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "nilai",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "tiga",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " peserta ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "didik",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " (Andi, Budi, dan Cinta) untuk ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "tiga",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "mata",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "pelajaran",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " (",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "Matematika",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": ", IPA, dan Bahasa Indonesia), ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "maka",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " dapat digunakan ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "struktur",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "sebagai",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " berikut. ",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "connector",
+    "geom": {
+     "xPct": 12.57,
+     "yPct": 78.016,
+     "wPct": 0.0,
+     "hPct": 4.583
+    },
+    "color": "#FF0000"
+   },
+   {
+    "kind": "connector",
+    "geom": {
+     "xPct": 15.78,
+     "yPct": 77.934,
+     "wPct": 0.058,
+     "hPct": 9.544
+    },
+    "color": "#FF0000"
+   },
+   {
+    "kind": "connector",
+    "geom": {
+     "xPct": 18.711,
+     "yPct": 78.016,
+     "wPct": 0.0,
+     "hPct": 4.583
+    },
+    "color": "#FF0000"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 9.969,
+     "yPct": 82.599,
+     "wPct": 5.201,
+     "hPct": 4.782
+    },
+    "fill": "#E97777",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Kolom 1",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 13.237,
+     "yPct": 87.478,
+     "wPct": 5.201,
+     "hPct": 4.553
+    },
+    "fill": "#E97777",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Kolom 2",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 16.32,
+     "yPct": 82.588,
+     "wPct": 5.201,
+     "hPct": 4.553
+    },
+    "fill": "#E97777",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Kolom 3",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "connector",
+    "geom": {
+     "xPct": 20.074,
+     "yPct": 70.067,
+     "wPct": 5.964,
+     "hPct": 2.168
+    },
+    "color": "#FF0000"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 26.038,
+     "yPct": 68.263,
+     "wPct": 5.201,
+     "hPct": 3.608
+    },
+    "fill": "#E97777",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Baris 1",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 26.038,
+     "yPct": 73.077,
+     "wPct": 5.201,
+     "hPct": 3.608
+    },
+    "fill": "#E97777",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Baris 2",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 26.038,
+     "yPct": 77.668,
+     "wPct": 5.201,
+     "hPct": 3.608
+    },
+    "fill": "#E97777",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Baris 3",
+        "bold": false,
+        "size": 11.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "connector",
+    "geom": {
+     "xPct": 20.074,
+     "yPct": 74.881,
+     "wPct": 5.964,
+     "hPct": 0.0
+    },
+    "color": "#FF0000"
+   },
+   {
+    "kind": "connector",
+    "geom": {
+     "xPct": 20.074,
+     "yPct": 77.527,
+     "wPct": 5.964,
+     "hPct": 1.945
+    },
+    "color": "#FF0000"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 45.425,
+     "yPct": 62.257,
+     "wPct": 46.075,
+     "hPct": 13.464
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Untuk ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "melakukan",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "perubahan",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " tetap ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "mengikuti",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "aturan",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "pembacaan",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "indeks",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " dengan baris ke-1 ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "ditulis",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "indeks",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ke-0. ",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 9,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 19.162,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Pengertian",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 30.254,
+     "wPct": 93.995,
+     "hPct": 13.464
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": "just",
+      "runs": [
+       {
+        "text": "Rekursi adalah teknik pemrograman di mana sebuah ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "fungsi memanggil dirinya sendiri ",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "untuk ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "menyelesaikan versi yang lebih kecil dari masalah yang sama",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": ", hingga mencapai ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "kondisi dasar ",
+        "bold": true,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "yang menghentikan pemanggilan lebih lanjut",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.124,
+     "yPct": 51.124,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Contoh Program",
+        "bold": true,
+        "size": 16.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 38.017,
+     "yPct": 13.038,
+     "wPct": 25.661,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "ALGORITMA REKURSI",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 60.291,
+     "yPct": 10.086,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 16.021,
+     "yPct": 68.789,
+     "wPct": 67.959,
+     "hPct": 10.866
+    },
+    "fill": "#FFF2F2",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Implementasi",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " pada program",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     },
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Klik",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Di ",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "sini",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 10,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 4.622,
+     "yPct": 28.948,
+     "wPct": 93.995,
+     "hPct": 13.464
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": "just",
+      "runs": [
+       {
+        "text": "Untuk beberapa tugas terdapat beberapa algoritma yang dapat melakukan tugas tersebut",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     },
+     {
+      "align": "just",
+      "runs": [
+       {
+        "text": "Proses membandingkan algoritma berguna untuk dapat membandingkan dan memilih algoritma yang paling sesuai berdasarkan berbagai pertimbangan.",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 34.602,
+     "yPct": 13.128,
+     "wPct": 30.796,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "MEMBANDINGKAN ALGORITMA",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 62.011,
+     "yPct": 10.176,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 3.717,
+     "yPct": 54.951,
+     "wPct": 93.986,
+     "hPct": 9.424
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Dalam ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "melakukan",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "pembandingan",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "algoritma",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "terdapat",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " beberapa ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "prinsip",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " yang ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "harus",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "dipenuhi",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "sebagai",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "bahan",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "pertimbangan",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": ". ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "Prinsip-prinsip",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " tersebut adalah:",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 3.947,
+     "yPct": 64.479,
+     "wPct": 3.259,
+     "hPct": 5.464
+    },
+    "src": "image13.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 3.947,
+     "yPct": 71.747,
+     "wPct": 3.259,
+     "hPct": 5.464
+    },
+    "src": "image13.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 3.947,
+     "yPct": 79.015,
+     "wPct": 3.259,
+     "hPct": 5.464
+    },
+    "src": "image13.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 3.947,
+     "yPct": 86.284,
+     "wPct": 3.259,
+     "hPct": 5.464
+    },
+    "src": "image13.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 40.104,
+     "yPct": 64.002,
+     "wPct": 3.259,
+     "hPct": 5.464
+    },
+    "src": "image13.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 49.153,
+     "yPct": 71.001,
+     "wPct": 3.259,
+     "hPct": 5.464
+    },
+    "src": "image13.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 55.206,
+     "yPct": 78.887,
+     "wPct": 3.259,
+     "hPct": 5.464
+    },
+    "src": "image13.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 60.48,
+     "yPct": 86.457,
+     "wPct": 3.259,
+     "hPct": 5.464
+    },
+    "src": "image13.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.96,
+     "yPct": 64.466,
+     "wPct": 22.262,
+     "hPct": 5.385
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Kebenaran",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " (Correctness)",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.96,
+     "yPct": 71.878,
+     "wPct": 28.718,
+     "hPct": 5.385
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Efisiensi",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " Waktu (Time Efficiency)",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.96,
+     "yPct": 78.727,
+     "wPct": 29.454,
+     "hPct": 5.385
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Efisiensi",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " Ruang (Space efficiency)",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 7.121,
+     "yPct": 86.471,
+     "wPct": 52.253,
+     "hPct": 5.385
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Keterbacaan",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " dan ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "Kesederhanaan",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " (Readability and Simplicity)",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 42.948,
+     "yPct": 63.643,
+     "wPct": 48.506,
+     "hPct": 5.385
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Kesesuaian",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " Dengan ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "Konteks",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": "Nyata",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " (Problem Relevance)",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 52.116,
+     "yPct": 70.949,
+     "wPct": 39.118,
+     "hPct": 5.385
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Kemampuan",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " digunakan Kembali (reusability)",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 50.824,
+     "yPct": 78.186,
+     "wPct": 29.148,
+     "hPct": 5.385
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Skalabilitas",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " (scalability)",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 57.186,
+     "yPct": 85.956,
+     "wPct": 111.49,
+     "hPct": 5.385
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Stabilitas",
+        "bold": false,
+        "size": null,
+        "color": null
+       },
+       {
+        "text": " (stability)",
+        "bold": false,
+        "size": null,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 19.162,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Tujuan",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.594,
+     "yPct": 45.103,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Prinsip-prinsip",
+        "bold": true,
+        "size": 16.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 11,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.375,
+     "yPct": 23.475,
+     "wPct": 51.478,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Perbandingan",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " ",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "antara",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Bubble Short dan Merge Short",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 81.957,
+     "yPct": 73.733,
+     "wPct": 16.18,
+     "hPct": 27.89
+    },
+    "src": "image11.png"
+   },
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 34.602,
+     "yPct": 13.128,
+     "wPct": 30.796,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "MEMBANDINGKAN ALGORITMA",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 62.011,
+     "yPct": 10.176,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "table",
+    "geom": {
+     "xPct": 16.296,
+     "yPct": 33.686,
+     "wPct": 64.761,
+     "hPct": 60.353
+    },
+    "rows": [
+     [
+      "Prinsip",
+      "Bubble Sort",
+      "Merge Sort"
+     ],
+     [
+      "1. Kebenaran",
+      "Menghasilkan urutan data yang benar",
+      "Menghasilkan urutan data yang benar"
+     ],
+     [
+      "2. Efisiensi Waktu",
+      "Lambat untuk data besar",
+      "Lebih cepat karena pakai strategi divide and conquer"
+     ],
+     [
+      "3. Efisiensi Ruang",
+      "Hemat memori, tidak butuh ruang tambahan",
+      "Butuh ruang tambahan untuk membagi dan menggabung data"
+     ],
+     [
+      "4. Keterbacaan",
+      "Lebih mudah dipahami",
+      "Menggunakan rekursi, bisa membingungkan pemula"
+     ],
+     [
+      "5. Skalabilitas",
+      "Kurang cocok untuk data besar",
+      "Tetap efisien meskipun data banyak"
+     ],
+     [
+      "6. Digunakan Kembali",
+      "Biasanya jadi satu blok kode, sulit digunakan ulang",
+      "Modular dan mudah dipakai ulang"
+     ],
+     [
+      "7. Stabilitas",
+      "Stabil (posisi elemen sama tetap)",
+      "Stabil (posisi elemen sama tetap)"
+     ],
+     [
+      "8. Kesesuaian Konteks",
+      "Cocok untuk belajar dan data kecil",
+      "Cocok untuk aplikasi nyata dan data besar"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "index": 12,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.375,
+     "yPct": 23.475,
+     "wPct": 54.458,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Contoh ",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Pengujian",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " ",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Efisiensi",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Waktu Menggunakan Python",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 81.957,
+     "yPct": 73.733,
+     "wPct": 16.18,
+     "hPct": 27.89
+    },
+    "src": "image11.png"
+   },
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 34.602,
+     "yPct": 13.128,
+     "wPct": 30.796,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "MEMBANDINGKAN ALGORITMA",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 62.011,
+     "yPct": 10.176,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 16.021,
+     "yPct": 44.567,
+     "wPct": 67.959,
+     "hPct": 10.866
+    },
+    "fill": "#FFF2F2",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Implementasi",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " pada program",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     },
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Klik",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Di ",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "sini",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 13,
+  "shapes": [
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": -2.066,
+     "yPct": 47.883,
+     "wPct": 47.017,
+     "hPct": 57.921
+    },
+    "src": "image10.png"
+   }
+  ]
+ },
+ {
+  "index": 14,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 29.168,
+     "yPct": 12.054,
+     "wPct": 41.282,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Membuat Program untuk Fungsi ",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Kuadrat",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 66.761,
+     "yPct": 8.788,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 19.162,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Fungsi Program",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.124,
+     "yPct": 17.739,
+     "wPct": 2.555,
+     "hPct": 4.394
+    },
+    "src": "image14.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.457,
+     "yPct": 48.905,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Kebutuhan",
+        "bold": true,
+        "size": 16.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Program",
+        "bold": true,
+        "size": 16.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 3.861,
+     "yPct": 47.098,
+     "wPct": 2.596,
+     "hPct": 4.615
+    },
+    "src": "image15.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.082,
+     "yPct": 29.731,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.571,
+     "yPct": 30.072,
+     "wPct": 19.356,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Dapat ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "menghitung",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "deskriminan",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 36.764,
+     "yPct": 37.033,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 39.254,
+     "yPct": 37.374,
+     "wPct": 24.865,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Dapat menggambar grafik fungsi kuadrat",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.082,
+     "yPct": 37.033,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.571,
+     "yPct": 37.374,
+     "wPct": 18.029,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Dapat ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "menentukan",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " jenis ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "akar",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 36.764,
+     "yPct": 28.848,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 39.254,
+     "yPct": 29.189,
+     "wPct": 34.74,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Dapat menghitung dan menampilkan akar-akar persamaan",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.457,
+     "yPct": 60.554,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.947,
+     "yPct": 60.895,
+     "wPct": 23.774,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Fungsi untuk ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "menghitung",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "deskriminan",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 37.14,
+     "yPct": 67.856,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 39.63,
+     "yPct": 68.197,
+     "wPct": 25.668,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Menentukan jenis akar berdasarkan nilai D",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.457,
+     "yPct": 67.856,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.947,
+     "yPct": 68.197,
+     "wPct": 25.562,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Fungsi untuk ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "menghitung",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "akar",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "persamaan",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 37.14,
+     "yPct": 59.671,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 39.63,
+     "yPct": 60.011,
+     "wPct": 27.6,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Menerima input nilai a, b, dan c dari pengguna",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.457,
+     "yPct": 75.015,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.947,
+     "yPct": 75.356,
+     "wPct": 25.391,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Fungsi menampilkan grafik fungsi kuadrat",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 15,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 29.168,
+     "yPct": 12.054,
+     "wPct": 41.282,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Membuat Program untuk Fungsi ",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Kuadrat",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 66.761,
+     "yPct": 8.788,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 81.957,
+     "yPct": 73.733,
+     "wPct": 16.18,
+     "hPct": 27.89
+    },
+    "src": "image11.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 48.077,
+     "yPct": 22.189,
+     "wPct": 30.775,
+     "hPct": 77.811
+    },
+    "src": "image17.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.678,
+     "yPct": 18.966,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Flowchart",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 3.846,
+     "yPct": 16.825,
+     "wPct": 2.911,
+     "hPct": 5.175
+    },
+    "src": "image18.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 8.332,
+     "yPct": 50.556,
+     "wPct": 27.12,
+     "hPct": 15.627
+    },
+    "fill": "#FFF2F2",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Implementasi",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " pada program",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     },
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Klik",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Di ",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "sini",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 16,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 34.405,
+     "yPct": 12.011,
+     "wPct": 29.037,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Membuat ",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Aplikasi",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Kuis",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 59.753,
+     "yPct": 8.744,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 19.162,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Fungsi Program",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.124,
+     "yPct": 17.739,
+     "wPct": 2.555,
+     "hPct": 4.394
+    },
+    "src": "image14.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.457,
+     "yPct": 48.905,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Kebutuhan",
+        "bold": true,
+        "size": 16.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Program",
+        "bold": true,
+        "size": 16.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 3.861,
+     "yPct": 47.098,
+     "wPct": 2.596,
+     "hPct": 4.615
+    },
+    "src": "image15.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.082,
+     "yPct": 29.731,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.571,
+     "yPct": 30.072,
+     "wPct": 21.71,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Dapat menyimpan soal dan ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "jawaban",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 36.764,
+     "yPct": 34.622,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 39.254,
+     "yPct": 34.963,
+     "wPct": 17.884,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Dapat mengevaluasi jawaban",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.082,
+     "yPct": 35.064,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.571,
+     "yPct": 35.405,
+     "wPct": 22.091,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Dapat ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "menampilkan",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " soal secara ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "acak",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 36.764,
+     "yPct": 28.848,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 39.254,
+     "yPct": 29.189,
+     "wPct": 19.146,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Dapat menerima input jawaban",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.457,
+     "yPct": 60.112,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.947,
+     "yPct": 60.453,
+     "wPct": 21.999,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Fungsi untuk ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "mengevaluasi",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "jawaban",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 37.14,
+     "yPct": 67.856,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 39.63,
+     "yPct": 68.197,
+     "wPct": 22.946,
+     "hPct": 4.488
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Library ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "random",
+        "bold": false,
+        "size": 14.0,
+        "color": null
+       },
+       {
+        "text": " untuk ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "mengacak",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " soal",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.457,
+     "yPct": 67.856,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.947,
+     "yPct": 68.197,
+     "wPct": 26.877,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Fungsi untuk memberikan skor dan feedback",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 37.14,
+     "yPct": 60.112,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 39.63,
+     "yPct": 60.453,
+     "wPct": 34.214,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Fungsi untuk menyimpan dan ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "mengambil",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " soal secara ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "acak",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 36.764,
+     "yPct": 40.397,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 39.254,
+     "yPct": 40.738,
+     "wPct": 33.635,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Dapat menghitung skor dan memberikan pesan motivasi ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.082,
+     "yPct": 40.397,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.571,
+     "yPct": 40.738,
+     "wPct": 19.435,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Dapat memberikan ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "umpan",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " balik",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 17,
+  "shapes": [
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 81.957,
+     "yPct": 73.733,
+     "wPct": 16.18,
+     "hPct": 27.89
+    },
+    "src": "image11.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.678,
+     "yPct": 18.966,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Flowchart",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 3.846,
+     "yPct": 16.825,
+     "wPct": 2.911,
+     "hPct": 5.175
+    },
+    "src": "image18.png"
+   },
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 34.405,
+     "yPct": 12.011,
+     "wPct": 29.037,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Membuat ",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Aplikasi",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Kuis",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 59.753,
+     "yPct": 8.744,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 17.748,
+     "yPct": 29.75,
+     "wPct": 61.275,
+     "hPct": 60.48
+    },
+    "src": "image19.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.188,
+     "yPct": 30.321,
+     "wPct": 27.12,
+     "hPct": 15.627
+    },
+    "fill": "#FFF2F2",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Implementasi",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " pada program",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     },
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Klik",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Di ",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "sini",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 18,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 29.168,
+     "yPct": 12.054,
+     "wPct": 41.282,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Membuat Program ",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Menghitung",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " ",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Deret",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 66.761,
+     "yPct": 8.788,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.839,
+     "yPct": 19.162,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Fungsi Program",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.124,
+     "yPct": 17.739,
+     "wPct": 2.555,
+     "hPct": 4.394
+    },
+    "src": "image14.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.457,
+     "yPct": 48.905,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Kebutuhan",
+        "bold": true,
+        "size": 16.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Program",
+        "bold": true,
+        "size": 16.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 3.861,
+     "yPct": 47.098,
+     "wPct": 2.596,
+     "hPct": 4.615
+    },
+    "src": "image15.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.082,
+     "yPct": 29.731,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.571,
+     "yPct": 30.072,
+     "wPct": 14.663,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Menghitung",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " Suku ke-n ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 36.764,
+     "yPct": 37.033,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 39.254,
+     "yPct": 37.374,
+     "wPct": 33.03,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Menyusun ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "deret",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " lengkap ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "dari",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "suku",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " pertama ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "hingga",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " ke-n",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.082,
+     "yPct": 37.033,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.571,
+     "yPct": 37.374,
+     "wPct": 11.98,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Menampilkan",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "hasil",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 36.764,
+     "yPct": 28.848,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 39.254,
+     "yPct": 29.189,
+     "wPct": 18.896,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Menerima input dari pengguna",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.457,
+     "yPct": 60.554,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.947,
+     "yPct": 60.895,
+     "wPct": 26.851,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Tiga ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "variabel",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " input ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "dari",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "pengguna",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": ": a, b, dan n.",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.457,
+     "yPct": 68.073,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.947,
+     "yPct": 68.414,
+     "wPct": 34.976,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Perulangan",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " (for) untuk ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "menyusun",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " semua ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "suku",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": " dalam ",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": "deret",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       },
+       {
+        "text": ".",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 4.389,
+     "yPct": 75.592,
+     "wPct": 2.692,
+     "hPct": 4.785
+    },
+    "src": "image16.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 6.878,
+     "yPct": 75.933,
+     "wPct": 49.229,
+     "hPct": 4.039
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": null,
+      "runs": [
+       {
+        "text": "Fungsi khusus (def hit_deret_aritm) untuk menghitung semua kebutuhan aritmetika.",
+        "bold": false,
+        "size": 12.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 19,
+  "shapes": [
+   {
+    "kind": "text",
+    "shape": "round2DiagRect",
+    "geom": {
+     "xPct": 29.168,
+     "yPct": 12.054,
+     "wPct": 41.282,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Membuat Program untuk Fungsi ",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "Kuadrat",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 66.761,
+     "yPct": 8.788,
+     "wPct": 4.14,
+     "hPct": 7.136
+    },
+    "src": "image12.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 81.957,
+     "yPct": 73.733,
+     "wPct": 16.18,
+     "hPct": 27.89
+    },
+    "src": "image11.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 4.678,
+     "yPct": 18.966,
+     "wPct": 21.995,
+     "hPct": 7.512
+    },
+    "fill": "#FFB3B3",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Flowchart",
+        "bold": true,
+        "size": null,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 3.846,
+     "yPct": 16.825,
+     "wPct": 2.911,
+     "hPct": 5.175
+    },
+    "src": "image18.png"
+   },
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": 0.0,
+     "yPct": 42.35,
+     "wPct": 100.0,
+     "hPct": 10.787
+    },
+    "src": "image20.png"
+   },
+   {
+    "kind": "text",
+    "shape": "roundRect",
+    "geom": {
+     "xPct": 20.513,
+     "yPct": 63.271,
+     "wPct": 58.975,
+     "hPct": 15.627
+    },
+    "fill": "#FFF2F2",
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Implementasi",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " pada program",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     },
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Klik",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": " Di ",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       },
+       {
+        "text": "sini",
+        "bold": false,
+        "size": 14.0,
+        "color": "scheme:tx1"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "index": 20,
+  "shapes": [
+   {
+    "kind": "image",
+    "geom": {
+     "xPct": -2.066,
+     "yPct": 47.883,
+     "wPct": 47.017,
+     "hPct": 57.921
+    },
+    "src": "image10.png"
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 43.933,
+     "yPct": 49.855,
+     "wPct": 56.122,
+     "hPct": 6.732
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "SELAMAT MEMBUAT PROGRAM!",
+        "bold": false,
+        "size": 24.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "shape": "rect",
+    "geom": {
+     "xPct": 43.878,
+     "yPct": 63.386,
+     "wPct": 56.122,
+     "hPct": 17.503
+    },
+    "fill": null,
+    "paragraphs": [
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "Sumber Gambar:",
+        "bold": false,
+        "size": 24.0,
+        "color": null
+       }
+      ]
+     },
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "freepik.com",
+        "bold": false,
+        "size": 24.0,
+        "color": null
+       }
+      ]
+     },
+     {
+      "align": "ctr",
+      "runs": [
+       {
+        "text": "PickIt",
+        "bold": false,
+        "size": 24.0,
+        "color": null
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

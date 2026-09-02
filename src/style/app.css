@@ -1,0 +1,616 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text-default);
+}
+
+/* ---------- Layer 1: Landing / daftar bab ---------- */
+
+/* Hero: layout absolut, angka diambil langsung dari desain Figma (kanvas
+   referensi 1920x611px), dikonversi ke container query units (cqw/cqh) biar
+   proporsinya presis tapi tetap responsif. container-type:size butuh tinggi
+   eksplisit — dikasih lewat aspect-ratio. */
+/* Semua posisi/ukuran vertikal pakai cqw (bukan cqh) sengaja — biar gak
+   tergantung tinggi hero. Tinggi hero sendiri sekarang dipangkas pas 20px di
+   bawah baris terakhir headline (bukan lagi rasio penuh 1920x611 asli), jadi
+   kalau elemen lain masih pakai cqh, posisinya bakal geser pas tinggi hero
+   berubah. */
+.landing__hero-wrap {
+  position: relative;
+  overflow: hidden;
+  container-type: size;
+  aspect-ratio: 1920 / 490;
+  width: 100%;
+}
+
+.landing__hero {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: linear-gradient(
+    135deg,
+    var(--color-header-gradient-start),
+    var(--color-header-gradient-end)
+  );
+}
+
+.landing__hero-rings {
+  position: absolute;
+  left: 0cqw;
+  top: 10.677cqw;
+  width: 32.76cqw;
+  height: 23.494cqw;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Lingkaran harus lingkaran presisi (width == height secara fisik) — semua
+   dalam cqw biar konsisten dua sumbu. */
+.landing__ring {
+  position: absolute;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2.083cqw;
+  box-sizing: border-box;
+}
+
+.landing__ring--green {
+  left: 0cqw;
+  top: 0cqw;
+  width: 20.417cqw;
+  height: 20.417cqw;
+  border-color: var(--color-green-alt);
+}
+
+.landing__ring--blue {
+  left: 10.208cqw;
+  top: 6.771cqw;
+  width: 16.719cqw;
+  height: 16.719cqw;
+  border-color: var(--color-blue);
+}
+
+.landing__ring--pink {
+  left: 16.042cqw;
+  top: 0cqw;
+  width: 16.719cqw;
+  height: 16.719cqw;
+  border-color: var(--color-pink);
+}
+
+.landing__wave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3.125cqw;
+  display: block;
+  z-index: 2;
+}
+
+.landing__logo {
+  position: absolute;
+  z-index: 1;
+  object-fit: contain;
+}
+
+.landing__logo--sarana {
+  left: 1.391cqw;
+  top: 5px;
+  height: 56px;
+  width: auto;
+}
+
+/* Logo-Penerbit-Erlangga.png punya padding transparan gede (konten cuma ~26%
+   tinggi kanvas, terpusat vertikal) — crop dengan scale-up + overflow hidden. */
+.landing__logo--erlangga.landing__logo-crop {
+  left: calc(1.391cqw + 86px + 5px);
+  top: 5px;
+  height: 56px;
+  width: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.landing__logo-crop img {
+  height: 212px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.landing__headline {
+  position: absolute;
+  left: 35.313cqw;
+  margin: 0;
+  font-family: var(--font-heading);
+  z-index: 1;
+  color: var(--color-navy);
+}
+
+.landing__headline--1 {
+  top: 11.148cqw;
+  width: 55.885cqw;
+  font-size: 3.333cqw;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.landing__headline--2 {
+  top: 15.5cqw;
+  width: 37.865cqw;
+  font-size: 2.5cqw;
+  font-weight: 600;
+  color: var(--color-text-default);
+  line-height: 1.2;
+}
+
+.landing__accent-green {
+  color: var(--color-green-alt);
+}
+
+.landing__accent-pink {
+  color: var(--color-pink);
+}
+
+/* Nempel pojok kanan-atas, miring -30deg, seolah mengalir dari sisi kanan ke
+   sisi atas — grid 2 kolom, melayang naik-turun pelan (infinite). */
+.landing__hero-books {
+  position: absolute;
+  right: -8cqw;
+  top: 0;
+  width: 24cqw;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  mask-image: linear-gradient(to bottom, transparent, #000 8%, #000 100%);
+}
+
+.landing__hero-books-track {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5cqw;
+  transform: rotate(-30deg) scale(0.63);
+  position: absolute;
+  top: -14cqw;
+  right: 3cqw;
+}
+
+.landing__hero-books-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5cqw;
+  flex-shrink: 0;
+}
+
+.landing__book-cover {
+  width: 100%;
+  aspect-ratio: 122 / 174;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+.landing__body {
+  max-width: 1100px;
+  margin: 24px auto 0;
+  padding: 0 var(--size-space-400) var(--size-space-1600);
+  position: relative;
+}
+
+.landing__body h2 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0 0 4px;
+  color: var(--color-text-default);
+}
+
+.landing__subtitle {
+  font-family: var(--font-body);
+  color: var(--color-text-secondary);
+  margin: 0 0 24px;
+}
+
+.bab-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .bab-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .bab-grid {
+    grid-template-columns: 1fr;
+  }
+  .landing__hero-books {
+    display: none;
+  }
+}
+
+.bab-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #fff;
+  border: 1px solid var(--color-border-default);
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.bab-card__cover {
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.bab-card__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.bab-card__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.bab-card__title {
+  font-weight: 600;
+  color: var(--color-text-default);
+}
+
+.bab-card__topic {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  margin: 4px 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.bab-card__btn {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid var(--color-border-default);
+  background: var(--color-bg-neutral-tint);
+  cursor: pointer;
+}
+
+.bab-card__btn:hover {
+  background: var(--color-border-default);
+}
+
+.bab-status {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 9px;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--color-text-secondary);
+  white-space: nowrap;
+}
+
+.bab-status--sedang {
+  background: var(--color-blue);
+}
+
+.bab-status--selesai {
+  background: var(--color-green);
+}
+
+.landing__maskot {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 0 var(--size-space-1600) var(--size-space-1600);
+}
+
+.landing__maskot-img {
+  height: 140px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ---------- Layer 2: PPT viewer ---------- */
+.ppt-viewer {
+  min-height: 100vh;
+  background: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+}
+
+.ppt-viewer__topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px var(--size-space-400);
+  background: linear-gradient(
+    135deg,
+    var(--color-header-gradient-start),
+    var(--color-header-gradient-end)
+  );
+}
+
+.ppt-viewer__title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--color-text-default);
+}
+
+.ppt-viewer__logos {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.ppt-viewer__logos img {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+}
+
+.ppt-viewer__body {
+  flex: 1;
+  display: flex;
+  background: var(--color-white);
+  position: relative;
+  overflow: hidden;
+}
+
+/* --- sidebar --- */
+.ppt-viewer__sidebar {
+  width: 260px;
+  flex-shrink: 0;
+  padding: var(--size-space-400);
+  border-right: 1px solid var(--color-border-default);
+  overflow-y: auto;
+  transition: width 0.2s ease, padding 0.2s ease, opacity 0.15s ease;
+}
+
+.ppt-viewer[data-sidebar-open="false"] .ppt-viewer__sidebar {
+  width: 0;
+  padding-left: 0;
+  padding-right: 0;
+  opacity: 0;
+  border: 0;
+  pointer-events: none;
+}
+
+.ppt-viewer__sidebar-top {
+  margin-bottom: 20px;
+}
+
+.ppt-viewer__back {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: none;
+  background: var(--color-header-gradient-end);
+  color: var(--color-text-default);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.ppt-outline h2,
+.ppt-tracker h2 {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: none;
+  margin: 0 0 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border-default);
+  color: var(--color-text-default);
+}
+
+.ppt-outline ol {
+  list-style: none;
+  margin: 0 0 24px;
+  padding: 0;
+}
+
+.ppt-outline li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  padding: 6px 4px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.ppt-outline li:hover {
+  background: var(--color-bg-neutral-tint);
+}
+
+.ppt-outline li.is-active {
+  color: var(--color-text-default);
+  font-weight: 600;
+  background: var(--color-bg-neutral-tint);
+}
+
+.ppt-outline__num {
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+/* --- circular tracker --- */
+.ppt-tracker__ring {
+  --pct: 0;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: conic-gradient(
+    var(--color-header-gradient-end) calc(var(--pct) * 1%),
+    var(--color-border-default) 0
+  );
+}
+
+.ppt-tracker__ring::before {
+  content: "";
+  position: absolute;
+}
+
+.ppt-tracker__ring span {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--color-text-default);
+}
+
+/* --- stage --- */
+.ppt-viewer__stage-wrap {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: var(--size-space-400);
+  gap: 16px;
+}
+
+.ppt-viewer__hamburger {
+  position: absolute;
+  top: var(--size-space-400);
+  left: var(--size-space-400);
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: var(--color-header-gradient-end);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.ppt-viewer__hamburger span {
+  width: 16px;
+  height: 2px;
+  background: var(--color-text-default);
+  border-radius: 2px;
+}
+
+.viewer__stage {
+  flex: 1;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--color-bg-neutral-tint);
+  margin-top: 56px;
+}
+
+.viewer__stage iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.viewer__stage:fullscreen,
+.viewer__stage.is-fullscreen {
+  border-radius: 0;
+  margin-top: 0;
+  background: #000;
+}
+
+.ppt-viewer__tap-zone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 12%;
+  min-width: 44px;
+  max-width: 96px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.ppt-viewer__tap-zone:hover {
+  background: linear-gradient(to var(--tap-zone-fade-dir, right), rgba(0, 0, 0, 0.06), transparent);
+}
+
+.ppt-viewer__tap-zone--prev {
+  left: 0;
+  --tap-zone-fade-dir: right;
+}
+
+.ppt-viewer__tap-zone--next {
+  right: 0;
+  --tap-zone-fade-dir: left;
+}
+
+.ppt-viewer__fullscreen {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  z-index: 4;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: var(--color-header-gradient-end);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.ppt-progress-linear {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-bg-neutral-tint);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.ppt-progress-linear__fill {
+  height: 100%;
+  background: var(--color-navy);
+  border-radius: 999px;
+  transition: width 0.2s ease;
+}

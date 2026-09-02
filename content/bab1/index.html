@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bab 1 — Berpikir Komputasional</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="presentation" id="presentation">
+
+  <!-- FULLSCREEN OVERLAY (hanya aktif saat fullscreen) -->
+  <div class="fs-overlay" id="fs-overlay">
+    <div class="fs-zone fs-zone--left" id="fs-left" title="Slide sebelumnya">
+      <div class="fs-arrow">&#8249;</div>
+    </div>
+    <div class="fs-zone fs-zone--right" id="fs-right" title="Slide selanjutnya">
+      <div class="fs-arrow">&#8250;</div>
+    </div>
+    <div class="fs-progress-bar" id="fs-progress-bar">
+      <div class="fs-progress-fill" id="fs-progress-fill"></div>
+    </div>
+    <div class="fs-slide-counter" id="fs-slide-counter">1 / 15</div>
+  </div>
+
+  <!-- SLIDE 1: Cover -->
+  <div class="slide active" id="slide-1">
+    <div class="slide-cover">
+      <div class="cover-eyebrow">KA dan Koding Kelas X · Bab 1</div>
+      <h1 class="cover-title">Berpikir Komputasional<br>dan Penerapannya</h1>
+      <div class="cover-topics">
+        <div class="topic-pill">Konsep Berpikir Komputasional</div>
+        <div class="topic-pill">Menerapkan Konsep Berpikir Komputasional</div>
+      </div>
+      <div class="cover-hint">Klik → untuk mulai</div>
+    </div>
+  </div>
+
+  <!-- SLIDE 2: Pengertian BK -->
+  <div class="slide" id="slide-2">
+    <div class="slide-inner">
+      <div class="slide-tag">Konsep Berpikir Komputasional</div>
+      <h2>Apa itu Berpikir Komputasional?</h2>
+      <div class="definition-box">
+        <div class="def-icon">💡</div>
+        <p><strong>Berpikir Komputasional (Computational Thinking)</strong> adalah sebuah cara berpikir sistematis dan logis untuk memahami permasalahan dan merancang solusi yang efisien.</p>
+      </div>
+      <h3 class="subtitle-sm">4 Pendekatan Berpikir Komputasional</h3>
+      <div class="four-cards">
+        <div class="approach-card" data-idx="0">
+          <div class="approach-icon">🧩</div>
+          <div class="approach-name">Dekomposisi</div>
+        </div>
+        <div class="approach-card" data-idx="1">
+          <div class="approach-icon">🔍</div>
+          <div class="approach-name">Pengenalan Pola</div>
+        </div>
+        <div class="approach-card" data-idx="2">
+          <div class="approach-icon">🎯</div>
+          <div class="approach-name">Abstraksi</div>
+        </div>
+        <div class="approach-card" data-idx="3">
+          <div class="approach-icon">📋</div>
+          <div class="approach-name">Berpikir Algoritma</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 3: Dekomposisi -->
+  <div class="slide" id="slide-3">
+    <div class="slide-inner">
+      <div class="slide-tag">Dekomposisi</div>
+      <h2>Memecah Masalah Menjadi Bagian Kecil</h2>
+      <div class="definition-box">
+        <div class="def-icon">🧩</div>
+        <p><strong>Dekomposisi</strong> adalah teknik memecah masalah kompleks menjadi bagian-bagian yang lebih sederhana <em>(divide et impera)</em>.</p>
+      </div>
+      <div class="example-block">
+        <div class="example-title">📚 Contoh: Membuat Presentasi Perubahan Iklim</div>
+        <div class="steps-list" id="dekomposisi-steps">
+          <div class="step-item hidden" data-order="0"><span class="step-num">1</span>Cari informasi penyebab perubahan iklim</div>
+          <div class="step-item hidden" data-order="1"><span class="step-num">2</span>Identifikasi dampak perubahan iklim</div>
+          <div class="step-item hidden" data-order="2"><span class="step-num">3</span>Temukan gambar atau video pendukung</div>
+          <div class="step-item hidden" data-order="3"><span class="step-num">4</span>Buat kerangka dan isi slide</div>
+          <div class="step-item hidden" data-order="4"><span class="step-num">5</span>Latihan presentasi</div>
+        </div>
+        <button class="btn-reveal" id="btn-dekomposisi">Tampilkan Langkah-langkah →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 4: Dekomposisi - Komputer tidak menyala -->
+  <div class="slide" id="slide-4">
+    <div class="slide-inner">
+      <div class="slide-tag">Dekomposisi</div>
+      <h2>Contoh: Komputer Tidak Menyala</h2>
+      <p class="slide-intro">Gunakan dekomposisi untuk mendiagnosis masalah secara sistematis. Centang setiap langkah pemeriksaan:</p>
+      <div class="checklist-interactive">
+        <label class="check-item"><input type="checkbox"><span>Periksa kabel daya dan colokan listrik</span></label>
+        <label class="check-item"><input type="checkbox"><span>Periksa indikator lampu dan kipas CPU</span></label>
+        <label class="check-item"><input type="checkbox"><span>Cek suara atau bunyi peringatan (beep)</span></label>
+        <label class="check-item"><input type="checkbox"><span>Periksa tampilan monitor</span></label>
+      </div>
+      <div class="check-result" id="check-result"></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 5: Pengenalan Pola -->
+  <div class="slide" id="slide-5">
+    <div class="slide-inner">
+      <div class="slide-tag">Pengenalan Pola</div>
+      <h2>Menemukan Kesamaan &amp; Keteraturan</h2>
+      <div class="definition-box">
+        <div class="def-icon">🔍</div>
+        <p><strong>Pola</strong> adalah kejadian yang terjadi secara berulang dan mengikuti urutan atau aturan tertentu.</p>
+      </div>
+      <h3 class="subtitle-sm">Apa kesamaan dari benda-benda ini?</h3>
+      <div class="ball-row">
+        <div class="ball-item" data-name="Bola Sepak">⚽</div>
+        <div class="ball-item" data-name="Bola Basket">🏀</div>
+        <div class="ball-item" data-name="Kelereng">🔵</div>
+        <div class="ball-item" data-name="Bola Voli">🏐</div>
+        <div class="ball-item" data-name="Bola Pantai">🏖️</div>
+      </div>
+      <button class="btn-reveal" id="btn-pola-answer">Lihat Polanya</button>
+      <div class="answer-reveal hidden" id="pola-answer">✅ Semua benda di atas <strong>berbentuk bola</strong> — inilah pengenalan pola!</div>
+    </div>
+  </div>
+
+  <!-- SLIDE 6: Pengenalan Pola - Deret Angka -->
+  <div class="slide" id="slide-6">
+    <div class="slide-inner">
+      <div class="slide-tag">Pengenalan Pola</div>
+      <h2>Tantangan Deret Angka</h2>
+      <p class="slide-intro">Perhatikan deret angka berikut dan temukan polanya!</p>
+      <div class="sequence-display">3, 4, 5, 9, 7, 16, 9, 25, 11, 36, <span class="blank-slot">?</span>, <span class="blank-slot">?</span></div>
+      <div class="sequence-hint-group">
+        <button class="btn-hint" id="btn-hint-1">💡 Petunjuk 1</button>
+        <button class="btn-hint" id="btn-hint-2" disabled>💡 Petunjuk 2</button>
+        <button class="btn-hint" id="btn-hint-3" disabled>✅ Jawaban</button>
+      </div>
+      <div class="hint-box hidden" id="hint-1">Coba pisahkan bilangan pada posisi <strong>ganjil</strong> dan posisi <strong>genap</strong>.</div>
+      <div class="hint-box hidden" id="hint-2">
+        <div>Ganjil: 3, 5, 7, 9, 11, <strong>?</strong> → Polanya: <strong>+2</strong> setiap langkah</div>
+        <div>Genap: 4, 9, 16, 25, 36, <strong>?</strong> → Polanya: <strong>bilangan kuadrat</strong> (2², 3², 4², 5², 6², ...)</div>
+      </div>
+      <div class="hint-box answer hidden" id="hint-3">Suku selanjutnya adalah <strong>13</strong> (ganjil) dan <strong>49</strong> (genap: 7²).<br>Deret lengkap: ..., 11, 36, <strong>13, 49</strong></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 7: Abstraksi -->
+  <div class="slide" id="slide-7">
+    <div class="slide-inner">
+      <div class="slide-tag">Abstraksi</div>
+      <h2>Fokus pada yang Penting</h2>
+      <div class="definition-box">
+        <div class="def-icon">🎯</div>
+        <p><strong>Abstraksi</strong> adalah proses menyederhanakan masalah dengan cara menyoroti elemen-elemen penting dan menyembunyikan detail yang tidak diperlukan.</p>
+      </div>
+      <h3 class="subtitle-sm">Klik setiap contoh untuk melihat apa yang diabstraksikan:</h3>
+      <div class="abstraction-cards">
+        <div class="abs-card" data-detail="Kamu tidak perlu tahu bagaimana pesan terkirim lewat server, enkripsi, dan jaringan.">
+          <div class="abs-icon">💬</div>
+          <div class="abs-label">Aplikasi WhatsApp</div>
+          <div class="abs-visible">Yang terlihat: kirim &amp; terima pesan</div>
+          <div class="abs-hidden-detail hidden">Yang disembunyikan: <em>protokol jaringan, enkripsi, server routing</em></div>
+        </div>
+        <div class="abs-card" data-detail="Kamu tidak perlu tahu cara kerja mesin, karburator, atau sistem pengapian.">
+          <div class="abs-icon">🛵</div>
+          <div class="abs-label">Mengendarai Motor</div>
+          <div class="abs-visible">Yang terlihat: gas, rem, setir</div>
+          <div class="abs-hidden-detail hidden">Yang disembunyikan: <em>mekanisme mesin, sistem bahan bakar, transmisi</em></div>
+        </div>
+        <div class="abs-card" data-detail="Kamu cukup memisahkan deret — tidak perlu tahu cara komputer memproses memori.">
+          <div class="abs-icon">🔢</div>
+          <div class="abs-label">Soal Deret Angka</div>
+          <div class="abs-visible">Yang terlihat: angka ganjil &amp; genap</div>
+          <div class="abs-hidden-detail hidden">Yang disembunyikan: <em>proses komputasi di balik pemisahan deret</em></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 8: Berpikir Algoritma -->
+  <div class="slide" id="slide-8">
+    <div class="slide-inner">
+      <div class="slide-tag">Berpikir Algoritma</div>
+      <h2>Langkah Logis &amp; Berurutan</h2>
+      <div class="definition-box">
+        <div class="def-icon">📋</div>
+        <p><strong>Berpikir Algoritma</strong> adalah proses menyusun langkah-langkah yang logis dan berurutan untuk menyelesaikan suatu masalah.</p>
+      </div>
+      <h3 class="subtitle-sm">Susun urutan membuat teh dengan drag &amp; drop:</h3>
+      <div class="drag-container">
+        <div class="drag-list" id="drag-list">
+          <div class="drag-item" draggable="true" data-correct="3">Tuang air ke dalam cangkir</div>
+          <div class="drag-item" draggable="true" data-correct="1">Masak air</div>
+          <div class="drag-item" draggable="true" data-correct="5">Aduk dan siap disajikan</div>
+          <div class="drag-item" draggable="true" data-correct="2">Masukkan teh ke dalam gelas</div>
+          <div class="drag-item" draggable="true" data-correct="4">Tambahkan gula sesuai selera</div>
+        </div>
+        <button class="btn-reveal" id="btn-check-algo">Cek Urutan</button>
+        <div class="algo-result hidden" id="algo-result"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 9: Diskriminan Interaktif -->
+  <div class="slide" id="slide-9">
+    <div class="slide-inner">
+      <div class="slide-tag">Berpikir Algoritma</div>
+      <h2>Algoritma: Akar Persamaan Kuadrat</h2>
+      <p class="slide-intro">Masukkan nilai a, b, c untuk menjalankan algoritma:</p>
+      <div class="quadratic-form">
+        <div class="quad-inputs">
+          <label>a = <input type="number" id="qa" value="1" min="-99" max="99"></label>
+          <label>b = <input type="number" id="qb" value="-5" min="-99" max="99"></label>
+          <label>c = <input type="number" id="qc" value="6" min="-99" max="99"></label>
+        </div>
+        <div class="quad-eq" id="quad-eq">x² − 5x + 6 = 0</div>
+        <button class="btn-reveal" id="btn-solve-quad">Jalankan Algoritma</button>
+        <div class="algo-steps hidden" id="quad-result"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 10: Pseudocode -->
+  <div class="slide" id="slide-10">
+    <div class="slide-inner">
+      <div class="slide-tag">Penyajian Algoritma</div>
+      <h2>Pseudocode</h2>
+      <div class="definition-box">
+        <div class="def-icon">📝</div>
+        <p><strong>Pseudocode</strong> adalah cara menuliskan algoritma menggunakan kalimat naratif yang dapat dipahami semua orang — bukan bahasa pemrograman tertentu.</p>
+      </div>
+      <h3 class="subtitle-sm">Contoh: Menghitung Luas Persegi Panjang</h3>
+      <div class="code-block">
+        <div class="code-line"><span class="kw">MULAI</span></div>
+        <div class="code-line"><span class="kw">MASUKKAN</span> panjang (p)</div>
+        <div class="code-line"><span class="kw">MASUKKAN</span> lebar (l)</div>
+        <div class="code-line"><span class="kw">HITUNG</span> L = p × l</div>
+        <div class="code-line"><span class="kw">TAMPILKAN</span> L</div>
+        <div class="code-line"><span class="kw">SELESAI</span></div>
+      </div>
+      <div class="pseudo-try">
+        <div class="pseudo-inputs">
+          <label>Panjang = <input type="number" id="pseudo-p" value="8" min="1"></label>
+          <label>Lebar = <input type="number" id="pseudo-l" value="5" min="1"></label>
+        </div>
+        <button class="btn-reveal" id="btn-pseudo-run">Jalankan Pseudocode</button>
+        <div class="pseudo-output hidden" id="pseudo-output"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 11: Flowchart -->
+  <div class="slide" id="slide-11">
+    <div class="slide-inner">
+      <div class="slide-tag">Penyajian Algoritma</div>
+      <h2>Flowchart</h2>
+      <div class="definition-box">
+        <div class="def-icon">🔀</div>
+        <p><strong>Flowchart</strong> adalah diagram beralur yang diwakili oleh bentuk-bentuk tertentu untuk setiap proses.</p>
+      </div>
+      <div class="flowchart-symbols">
+        <div class="fc-symbol">
+          <div class="fc-shape terminator">START / END</div>
+          <div class="fc-label">Terminator — awal/akhir proses</div>
+        </div>
+        <div class="fc-symbol">
+          <div class="fc-shape process">Proses</div>
+          <div class="fc-label">Process — komputasi/operasi</div>
+        </div>
+        <div class="fc-symbol">
+          <div class="fc-shape decision">Ya / Tidak</div>
+          <div class="fc-label">Decision — percabangan logika</div>
+        </div>
+        <div class="fc-symbol">
+          <div class="fc-shape io">Input / Output</div>
+          <div class="fc-label">I/O — masukan &amp; keluaran</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 12: Flowchart Luas Persegi Panjang -->
+  <div class="slide" id="slide-12">
+    <div class="slide-inner slide-inner--centered">
+      <div class="slide-tag">Penyajian Algoritma</div>
+      <h2>Flowchart: Luas Persegi Panjang</h2>
+      <div class="flowchart-visual">
+        <div class="fc-node terminator">START</div>
+        <div class="fc-arrow">↓</div>
+        <div class="fc-node io">INPUT p dan l</div>
+        <div class="fc-arrow">↓</div>
+        <div class="fc-node process">L = p × l</div>
+        <div class="fc-arrow">↓</div>
+        <div class="fc-node io">OUTPUT L</div>
+        <div class="fc-arrow">↓</div>
+        <div class="fc-node terminator">END</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 13: Menerapkan BK -->
+  <div class="slide" id="slide-13">
+    <div class="slide-inner">
+      <div class="slide-tag">Menerapkan Konsep BK</div>
+      <h2>Macam-macam Penerapan</h2>
+      <p class="slide-intro">Berpikir Komputasional dapat diterapkan dalam berbagai konteks. Pilih kategori untuk melihat contoh:</p>
+      <div class="tab-group">
+        <button class="tab-btn active" data-tab="sehari">Kehidupan Sehari-hari</button>
+        <button class="tab-btn" data-tab="mapel">Mata Pelajaran</button>
+        <button class="tab-btn" data-tab="gamif">Gamifikasi</button>
+      </div>
+      <div class="tab-content active" id="tab-sehari">
+        <ul class="apply-list">
+          <li>🛒 Belanja di supermarket → dekomposisi daftar belanja per kategori</li>
+          <li>🗺️ Merencanakan rute perjalanan → berpikir algoritma langkah demi langkah</li>
+          <li>🍳 Memasak resep → mengikuti urutan instruksi seperti algoritma</li>
+          <li>📅 Menyusun jadwal belajar → abstraksi prioritas &amp; pengenalan pola waktu</li>
+        </ul>
+      </div>
+      <div class="tab-content" id="tab-mapel">
+        <ul class="apply-list">
+          <li>📐 Matematika → memecah soal cerita (dekomposisi), mencari pola barisan bilangan</li>
+          <li>🔬 IPA → abstraksi konsep sel, pengenalan pola reaksi kimia</li>
+          <li>📖 Bahasa Indonesia → algoritma menulis paragraf yang baik</li>
+          <li>🌍 Geografi → dekomposisi wilayah, pengenalan pola iklim</li>
+        </ul>
+      </div>
+      <div class="tab-content" id="tab-gamif">
+        <div class="definition-box">
+          <div class="def-icon">🎮</div>
+          <p><strong>Gamifikasi</strong> adalah penerapan elemen-elemen permainan dalam konteks non-permainan untuk meningkatkan motivasi, keterlibatan, dan hasil.</p>
+        </div>
+        <ul class="apply-list">
+          <li>🏆 Poin &amp; badge untuk tugas yang diselesaikan</li>
+          <li>📊 Leaderboard untuk mendorong kompetisi sehat</li>
+          <li>🎯 Level &amp; tantangan bertingkat</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 14: Kuis Interaktif -->
+  <div class="slide" id="slide-14">
+    <div class="slide-inner">
+      <div class="slide-tag">Kuis</div>
+      <h2>Uji Pemahamanmu!</h2>
+      <div class="quiz-container" id="quiz-container">
+        <div class="quiz-progress"><span id="q-current">1</span> / <span id="q-total">4</span></div>
+        <div class="quiz-question" id="quiz-question"></div>
+        <div class="quiz-options" id="quiz-options"></div>
+        <div class="quiz-feedback hidden" id="quiz-feedback"></div>
+        <button class="btn-reveal hidden" id="btn-next-q">Pertanyaan Berikutnya →</button>
+      </div>
+      <div class="quiz-final hidden" id="quiz-final">
+        <div class="final-score" id="final-score"></div>
+        <button class="btn-reveal" id="btn-retry">Ulangi Kuis</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 15: Penutup -->
+  <div class="slide" id="slide-15">
+    <div class="slide-cover slide-cover--end">
+      <div class="cover-eyebrow">Bab 1 Selesai 🎉</div>
+      <h1 class="cover-title">Selamat Berpikir<br>Komputasional!</h1>
+      <p class="cover-sub">Kamu telah mempelajari 4 pendekatan utama:<br>Dekomposisi · Pengenalan Pola · Abstraksi · Berpikir Algoritma</p>
+      <div class="cover-hint">← Kembali ke slide sebelumnya</div>
+    </div>
+  </div>
+
+</div><!-- end .presentation -->
+<script src="script.js"></script>
+</body>
+</html>
